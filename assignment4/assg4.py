@@ -1,4 +1,5 @@
 
+
 class Shape():
     def info(self):
         print("Different Shapes-rectangle, square, triangle, circle, hexagon")
@@ -98,17 +99,8 @@ class quagga(zebra, horse):
         print("quagga- kwa-ha-ha")
 
 if __name__ == '__main__':
-      
-    c = cat()
-    c.speak()
-    l = lion()
-    l.speak()
-    print("legs of lion before : ",l.getLegs())
-    l.setLegs(2)
-    print("legs of lion after set : ", l.getLegs())
-    t = tiger()
-    t.speak()
-    print("legs of tiger : ",t.getLegs())
+    
+    print("*---*") 
     i = Shape()
     i.info()
     r = Rectangle()
@@ -120,6 +112,20 @@ if __name__ == '__main__':
     cir = Circle()
     cir.info()
     h = Hexagon()
-    h.info()
+    h.info() 
+    print("*---*") 
+    c = cat()
+    c.speak()
+    l = lion()
+    l.speak()
+    print("legs of lion before : ",l.getLegs())
+    l.setLegs(2)
+    print("legs of lion after set : ", l.getLegs())
+    t = tiger()
+    t.speak()
+    print("legs of tiger : ",t.getLegs())
+    
+    
+    
     
     
